@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vh;
+    margin: 0.5rem;
+}
+
+.profile-photo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.intro{
+    display: flex;
+    gap: 0.5rem;
+    /* margin: 1rem; */
+    margin-bottom: 0.5rem;
+    align-items: center;
+    /* padding-bottom: 0.5rem;
+    border-bottom: 1px solid black; */
+}
+
+.summary{
+    /* margin-left:1rem ; */
+    border-bottom: 1px solid black;
+    padding-bottom: 0.2rem;
+}
+
+.education-heading{
+    margin: 0.5rem 0;
+}
+
+li{
+    margin: 0.3rem 0;
+}
+
+.education-list{
+    margin-left: 1rem;
+}
+
+.education{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.work-exp-list{
+    padding-left: 1.1rem;
+
+}
+.work-exp{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+
+.skills-list{
+    padding-left: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.por-list{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.por-list p{
+    font-size: 0.8rem;
+}
+
+.other-list{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+
+}
+
+.footer{
+    padding: 1rem 0;
+}
